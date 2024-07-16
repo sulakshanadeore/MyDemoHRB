@@ -1,0 +1,71 @@
+	Version control
+
+	A		B		C
+      job1        job2         job3
+
+		M1    (compile)    +job3 
+		
+                full merge(compile)
+
+		compile
+
+A) Create a folder "Folder1"
+
+
+1)  Configure the git id
+
+git config -global  user.name "name"
+git config -global  user.email "emailaddress"
+
+2)  Initializing/creating a repo(repository)
+git init reponame
+
+3) Create a clone/copy of repo:
+git clone "url"
+
+4)Add a file to the  git repo and its in the staging are
+
+git add [file]
+
+git add *
+
+5) Commit with message
+ git commit -m "msg"
+
+6) commit any files that are added with the git add command and also commit any files that u have changed since then 
+
+git commit -a
+
+When no branch exists, committing to master.
+
+7) create branch 
+git branch branchname
+	git branch b1
+
+to enter a particular branch
+git checkout b1
+
+8) git checkout -b b2
+
+9) git merge b1
+
+10) git checkout master
+git merge b2
+
+11) git log
+list the version history for the current branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
